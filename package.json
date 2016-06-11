@@ -1,0 +1,35 @@
+{
+  "name": "unijas_blog",
+  "version": "0.0.0",
+  "description": "Realtime blog powered by RRRE(rethink+redux+react+express) around the unijas-idea",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "Blog",
+    "Web",
+    "Express",
+    "Rethinkdb",
+    "React",
+    "Redux"
+  ],
+  "author": "Siggi Duenkel",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.10.1",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "mocha": "^2.5.3",
+    "require-gulp-tasks": "github:chaosprinz/require-gulp-tasks",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0",
+    "unijas-task-build-stylus": "github:unijas/unijas-task-build-stylus",
+    "unijas-task-buildjs": "github:unijas/unijas-task-buildjs",
+    "unijas-task-runserver": "github:unijas/unijas-task-runserver"
+  }
+}
