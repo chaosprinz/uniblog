@@ -26,10 +26,14 @@
     "gulp": "^3.9.1",
     "mocha": "^2.5.3",
     "require-gulp-tasks": "github:chaosprinz/require-gulp-tasks",
+    "require-reload": "^0.2.2",
     "sinon": "^1.17.4",
     "sinon-chai": "^2.8.0",
     "unijas-task-build-stylus": "github:unijas/unijas-task-build-stylus",
     "unijas-task-buildjs": "github:unijas/unijas-task-buildjs",
     "unijas-task-runserver": "github:unijas/unijas-task-runserver"
+  },
+  "dependencies": {
+    "rethinkdbdash": "^2.3.8"
   }
 }
